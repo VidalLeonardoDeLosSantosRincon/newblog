@@ -1,0 +1,36 @@
+.ctr-post{
+    height:300px;
+    width:20%;
+    background: white;
+    border:0.5px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+    box-sizing:border-box;
+    padding:5px;
+    
+}
+
+.ctr-post-img-box{
+    height:80%;
+    width:100%;
+    padding:5px;
+    box-sizing:border-box;
+    background:white;
+}
+.ctr-post-info-box{
+    height:20%;
+    width:100%;
+    padding:5px;
+    box-sizing:border-box;
+    background:gray;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+
+
+.ctr-post:hover{
+    transform:scale(1.05);
+    box-shadow:5px 10px 5px rgba(0,0,0,0.1);
+    
+}
